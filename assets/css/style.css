@@ -1,0 +1,55 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+.masterlayer {
+    background: url("../images/hero-bg.jpg") no-repeat center top;
+    margin-top: -10px;
+    text-align: center;
+    /*background-attachment: fixed;*/
+    background-position: center center;
+    min-height: 700px;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(0,0,0,.5);
+}
+.text{
+    margin-top: -10px;
+    font-family: 'Montserrat',sans-serif;
+   font-size: 3.9rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.home-logo{
+    display: inline-block;
+    left: 48%;
+    
+    height: auto;
+    padding: 28px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 2.5%;
+    text-align: center;
+    
+}
+.home-logo img{
+border-radius: 5px;
+width: 60px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .home-logo img {
+        width: 48px;
+    }
+}
