@@ -2,7 +2,7 @@
     display: none; 
 }
 .masterlayer {
-    background: url("../images/hero-bg.jpg") no-repeat center top;
+    background: url("../images/hero-bg.jpeg") no-repeat center top;
     margin-top: -10px;
     text-align: center;
     /*background-attachment: fixed;*/
